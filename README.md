@@ -5,8 +5,8 @@ This application serves as a metronome to help musicians keep time and also incl
 ## Features
 
 - **Metronome**: Set the beats per minute (BPM), beats, and quarters to practice your timing with auditory cues for each beat.
-- **Neck Training**: A visual aid for guitarists to learn and memorize the notes on the fretboard.
-
+- **Neck Training**: A tutor telling you what note to find
+  
 ## How to Run
 
 To run the app, you need to have Deno installed on your machine. Once Deno is installed, you can start the application using the following command:
