@@ -5,14 +5,14 @@ This application serves as a metronome to help musicians keep time and also incl
 ## Features
 
 - **Metronome**: Set the beats per minute (BPM), beats, and quarters to practice your timing with auditory cues for each beat.
-- **Neck Training**: A tutor telling you what note to find
+- **Neck Training**: A tutor telling you what note to find with a pitch recognition listening to your default input and says yes or no
   
 ## How to Run
 
 To run the app, you need to have Deno installed on your machine. Once Deno is installed, you can start the application using the following command:
 
 ```sh
-deno run -A main.ts
+deno run --unstable -A main.ts
 ```
 
 ## How to use
