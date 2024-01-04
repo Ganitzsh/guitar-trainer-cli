@@ -2,8 +2,8 @@ import { Accidental, Note } from './notes.ts';
 import { Application } from './application.ts';
 import { pickRandomElement } from './utils.ts';
 
-const DEFAULT_MEASURES_PER_NOTE = 2;
-const DEFAULT_USE_ACCIDENTAL = true;
+const DEFAULT_MEASURES_PER_NOTE = 4;
+const DEFAULT_USE_ACCIDENTAL = false;
 
 const notes: Note[] = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
 const accidentals: Accidental[] = ['#', 'b'];

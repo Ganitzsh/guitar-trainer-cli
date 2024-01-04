@@ -1,5 +1,9 @@
 {
   "version": "3",
+  "redirects": {
+    "https://deno.land/x/portaudio/mod.ts": "https://deno.land/x/portaudio@0.2.0/mod.ts",
+    "https://esm.sh/pitchy@4": "https://esm.sh/pitchy@4.1.0"
+  },
   "remote": {
     "https://deno.land/std@0.176.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
     "https://deno.land/std@0.176.0/_util/os.ts": "d932f56d41e4f6a6093d56044e29ce637f8dcc43c5a90af43504a889cf1775e3",
@@ -84,6 +88,9 @@
     "https://deno.land/x/tui@2.1.7/src/utils/signals.ts": "a78893aa2e379468df65045a4d1f45e0111237b24e18c19bf5a92b6ee9074c4a",
     "https://deno.land/x/tui@2.1.7/src/utils/sorted_array.ts": "d7b55e9c6489102fbee46d632040449f960f2ed3ae0d6bc3326e6d6ec1450d97",
     "https://deno.land/x/tui@2.1.7/src/utils/strings.ts": "6eff09ec0cf58aee239df3ca41d55f22694cdb4bc73b213a9066f11b65218419",
-    "https://deno.land/x/tui@2.1.7/src/view.ts": "77c9dfdb3632f95c2456036c5e30f90cfbbad62cbb4f370cba48b992523aa619"
+    "https://deno.land/x/tui@2.1.7/src/view.ts": "77c9dfdb3632f95c2456036c5e30f90cfbbad62cbb4f370cba48b992523aa619",
+    "https://esm.sh/pitchy@4.1.0": "96ea7e322507ae33de16d1d48da061f895d41c6d1d8e5e9f61fc1965ad39a01c",
+    "https://esm.sh/v135/fft.js@4.0.4/denonext/fft.mjs": "36217481c9577254250916fa73c4b5f9850666ac3c05d6350a9e46bf55ab4a1b",
+    "https://esm.sh/v135/pitchy@4.1.0/denonext/pitchy.mjs": "0c8a190b68386ad6418ae51987a1f859ead898afa865207a91871eacab31ff47"
   }
 }

@@ -23,6 +23,8 @@ export const accidentalSoundMap: Record<Accidental, Sound> = {
 
 const tic: Sound = newSound('tic.wav');
 const toc: Sound = newSound('toc.wav');
+const yes: Sound = newSound('yes.wav');
+const no: Sound = newSound('no.wav');
 
 // Logic
 
@@ -73,6 +75,20 @@ const handleUiMetronomeBpmDecrease = () => {
   ui.metronome.bpm.value = app.state.metronome.state.bpm.toString();
 };
 
+const handlePitchChange = (
+  event: CustomEvent<{ note: Note; octave: number }>,
+) => {
+  const { note } = event.detail;
+
+  const { neckTraining } = app.state;
+
+  if (note === neckTraining.state.currentNote) {
+    yes.play();
+  } else {
+    no.play();
+  }
+};
+
 const init = () => {
   const { metronome: { state: { bpm, beats, quarters } } } = app.state;
 
@@ -98,6 +114,10 @@ const init = () => {
   addEventListener(
     'ui:metronome:bpm:decrease',
     handleUiMetronomeBpmDecrease as EventListenerOrEventListenerObject,
+  );
+  addEventListener(
+    'state:pitch:change',
+    handlePitchChange as EventListenerOrEventListenerObject,
   );
 };
 
