@@ -24,9 +24,9 @@ To adjust the BPM (Beats Per Minute):
 
 ## TODO
 
-[] Add real time settings input for each individual app
-[] Add toggles to disable/enable individual apps
-[] Add toggles to mute/unmute specific sounds
+- [ ] Add real time settings input for each individual app
+- [ ] Add toggles to disable/enable individual apps
+- [ ] Add toggles to mute/unmute specific sounds
 
 ### Credits
 
