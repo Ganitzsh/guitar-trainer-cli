@@ -22,7 +22,13 @@ To adjust the BPM (Beats Per Minute):
 - **Increase BPM**: Left-click on the BPM value to increase it.
 - **Decrease BPM**: Right-click on the BPM value to decrease it.
 
+## TODO
+
+[] Add real time settings input for each individual app
+[] Add toggles to disable/enable individual apps
+[] Add toggles to mute/unmute specific sounds
+
 ### Credits
 
 - Sound assets for notes generated with Google's TTS on [freetts.com](https://freetts.com/)
-- [Tic](https://freesound.org/people/MrOwn1/sounds/110314/) and [Toc](https://freesound.org/people/fellur/sounds/429721/) found on [freesound.org](https://freesound.org)
+- [Tic](https://freesound.org/people/MrOwn1/sounds/110314/), [Toc](https://freesound.org/people/fellur/sounds/429721/), [Yes](https://freesound.org/people/vikuserro/sounds/246307/) and [No](https://freesound.org/people/allietron/sounds/269542/) found on [freesound.org](https://freesound.org)
